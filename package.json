@@ -1,0 +1,24 @@
+{
+  "name": "remax-demo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "IMSuperkaka <1072815089@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -t",
+    "build": "cross-env NODE_ENV=production remax build -t"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.4.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "remax": "^2.7.7",
+    "weui-miniprogram": "^1.0.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
